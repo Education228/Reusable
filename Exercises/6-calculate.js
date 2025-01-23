@@ -16,7 +16,7 @@
 Call functions `square` and `cube` in loop, then pass their
 results to function `average`. Print what `average` returns. */
 
-const square = (x) => x ** 2;
+const square = (x) => x * x;
 
 const cube = (x) => x ** 3;
 
