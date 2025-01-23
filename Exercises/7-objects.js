@@ -7,6 +7,18 @@
 - Try to assign other object to both identifiers.
 - Explain script behaviour. */
 
-const fn = null;
+const fn = () => {
+  const obj1 = {
+    name: 'bobra',
+  };
+  let obj2 = {
+    name: 'bebra',
+  };
+  obj1.name = 'bebur';
+  obj2.name = 'bebris';
+  obj2 = {
+    age: 228
+  };
+};
 
 module.exports = { fn };
